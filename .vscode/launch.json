@@ -6,7 +6,7 @@
         "type": "cppdbg",
         "request": "launch",
         "program": "${workspaceFolder}/tu_programa",
-        "args": ["arg1", "arg2"],
+        "args": ["HOOLA", "ADIIOS","2"],
         "stopAtEntry": false,
         "cwd": "${workspaceFolder}",
         "environment": [],

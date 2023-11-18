@@ -1,4 +1,4 @@
-#include <unistd.h>
+//#include <unistd.h>
 char    *ft_strcpy(char *dest, char *src)
 {
     int i;
@@ -12,7 +12,7 @@ char    *ft_strcpy(char *dest, char *src)
     dest[i] = '\0';
     return (dest);
 }
-int main(int a, char *args[]){
+/*int main(int a, char *args[]){
      
     char *p=args[1];
     char *q=args[2];
@@ -27,4 +27,4 @@ int main(int a, char *args[]){
         write(1, &s,1);
         i++;
     }  
-}
+}*/
