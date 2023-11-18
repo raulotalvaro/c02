@@ -1,13 +1,13 @@
 //#include <unistd.h>
 //los caracteres alfabeticos en ascci van del 65 al 90 (mayusculas) y del 65+32=97 al 90+32=122 (minusculas)
-char    ft_str_is_numeric(char *str)
+char    ft_str_is_uppercase(char *str)
 {
     int i;
 
     i = 0;
     while (str[i] != 0)
     {    
-        if (!( (48 <= str[i] && str[i] <= 57)))         
+        if (!( (65 <= str[i] && str[i] <= 90) ))         
             return (0);
         i++;
     }
@@ -16,6 +16,6 @@ char    ft_str_is_numeric(char *str)
 /*int main(int a, char *args[]){
     if(a!=2)return 0;
     char *str=args[1];   
-    int i=ft_str_is_numeric(str)+48;
+    int i=ft_str_is_uppercase(str)+48;
     write(1, &i,1);
 }*/
