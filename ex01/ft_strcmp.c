@@ -13,7 +13,7 @@ char    *ft_strcpy(char *dest, char *src)
     return (dest);
 }
 int main(int a, char *args[]){
-    if(a != 2)return 0;
+     
     char *p=args[1];
     char *q=args[2];
     q=ft_strcpy(p, q);
@@ -23,7 +23,7 @@ int main(int a, char *args[]){
     int s;
     while (q[i] != '\0')
     {   
-        s = p[i];
+        s = q[i];
         write(1, &s,1);
         i++;
     }  
